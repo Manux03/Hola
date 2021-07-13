@@ -1,0 +1,172 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+
+.barrarriba {
+    background-color: rgb(68, 67, 67);
+    left: 100%;
+    right: 100%;
+}
+
+.pie{
+    align-content: center;
+}
+
+.cards {
+    background: rgb(182,115,255);
+    background: radial-gradient(circle, rgba(182,115,255,1) 4%, rgba(214,77,238,1) 47%, rgba(255,208,148,1) 100%);
+    padding: 50px;
+}
+.navbar-brand{
+    font-family: 'Poppins';
+    font-size: 40px;
+}
+
+h1{
+    font-family: 'Poppins';
+    font-style: inherit;
+    color: rgb(249, 75, 255);
+    font-display: unset;
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+}
+
+.card {
+    margin: 20px 10px;
+    background-color: white;
+    border-radius: 40px;
+}
+.card-body{
+    box-shadow: 0 0 20px 7 px rgba(0, 0, 0,0.1);
+    border-radius: 10px;
+}
+
+.card-body a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+
+}
+
+
+h2 {
+    color: aliceblue;
+    font-family: 'Poppins';
+    font-size: 40px;
+    text-shadow: 3px 3px black;
+}
+
+.ctm{
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+.fondo{
+    background-color: rgb(68, 67, 67);
+}
+
+.navbar{
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	padding:25px 0;
+    background-color: #000;
+    opacity: 75%;
+    
+}
+.navbar .logo{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 750;
+	letter-spacing: 2px;
+    background: linear-gradient(90deg, rgba(214,102,9,1) 4%, rgba(255,190,0,1) 47%, rgba(255,246,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar .logo:hover{
+	text-shadow: 2px;
+    text-shadow: 2px 1px black;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+.navbar ul.navbar-nav{
+	margin-right: 15% !important;
+}
+.navbar ul.navbar-nav li.active,
+.navbar ul.navbar-nav li:hover{
+	background:rgba(255, 255, 255, 0.5) !important;
+	color: #000 !important;
+
+}
+.navbar ul.navbar-nav li a{
+	color: #fff !important;
+	font-size: 1em !important ;
+	font-weight: 500 !important;
+    font-family: 'Poppins' !important;
+    font-size: 18px !important;
+}
+.navbar ul.navbar-nav li.active a,
+.navbar ul.navbar-nav li:hover a{
+	color: #000 !important;
+}
+
+.footer-wrapper{
+    padding: 50px;
+    text-align: center;
+    opacity: 55%;
+    background-color: #000;
+    border-radius: 40px;
+}
+
+
+.footer-wrapper .logo{
+    font-size: 40px;
+	font-weight: 750;
+	letter-spacing: 2px;
+    background: linear-gradient(90deg, rgba(214,102,9,1) 4%, rgba(255,190,0,1) 47%, rgba(255,246,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-wrapper .logo:hover{
+    text-shadow: 2px;
+    text-shadow: 5px 1px black;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+a:hover{
+    color: red !important;
+}
+
+.cards {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h6{
+    color:white;
+    font-size: x-large;
+}
+li {
+    color: white;
+}
+
+.cards img{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+
+

@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(182,115,255);
+    background: radial-gradient(circle, rgba(182,115,255,1) 4%, rgba(214,77,238,1) 47%, rgba(255,208,148,1) 100%);
+}
+
+.card{
+    width: 600px;
+    background: white;
+    padding:30px;
+    margin: auto;
+    margin-top:100px;
+    border-radius:40px;
+    font-family:'calibri';
+    color:black;
+}
+
+.btn{
+    width: 505px;
+    float: right;
+    border-radius: 10px;
+}
+
+.form-control {
+    width: 100%;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: 2px solid black;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+label{
+    font-family: 'calibri';
+    font-size: 25px;
+}
+
+h2{
+    font-size: 70px;
+	text-transform: uppercase;
+	font-weight: 750;
+	letter-spacing: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+h2:hover{
+    background: linear-gradient(90deg, rgba(214,102,9,1) 4%, rgba(255,190,0,1) 47%, rgba(255,246,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
